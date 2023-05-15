@@ -1,0 +1,404 @@
+/* mengatur font web */
+:root{
+--size-width: 400px;
+--size-height: 250px;
+}
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  scroll-behavior: smooth;
+  transition: 2s;
+  
+}
+/* mengatur tampilan body */
+body {
+  background-image: url(background2.jpg);
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: calc(100vh - 4rem);
+  max-width: calc(100vh- 4rem);
+}
+
+a {
+  text-decoration: none;
+}
+/* halaman 1 */
+
+.page1 {
+  border: none;
+  height: 35rem;
+
+  width: fit-content;
+  margin-top: 4rem;
+  /* border-radius: 10px; */
+  background-color:#fffaf4;
+  list-style-type: none;
+  border-image: url("line1.png");
+  border-image-slice: 44;
+  border: 40px transparent;
+  padding: 15px;
+}
+.homepage1{
+    
+    text-align: center;
+    color: #cc8c18;
+}
+.page1 h1 {
+  color:#4b5b73;
+}
+.page1 p {
+ text-align: justify;
+  margin-top: 5rem;
+  color:#313538;
+}
+.page1 img {
+  opacity: 0.8;
+  margin-left: 2rem;
+  width: 300px;
+  height: 300px;
+  border-radius: 55%;
+  margin-top: 8rem;
+  transition: 2.5s;
+}
+
+.page1 ul {
+    list-style: none;
+top: 2px;
+  display: flex;
+}
+.page1 div {
+  /* background-color: aliceblue; */
+  height: 20rem;
+  margin-top: 4rem;
+  margin-left: 5rem;
+  margin-right: 2rem;
+  text-align: center;
+  background-color: none;
+}
+
+.letsgo h3{
+    top: 2px;
+    margin-bottom: 2px;
+
+}
+.letsgo button{
+    background-color: #cc8c18;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+
+}
+.letsgo :hover button{
+    transform: rotate("90deg");
+    cursor:pointer;
+}
+.txtpage1 {
+  color: black;
+  margin-top: -50px;
+  font-size: 20px;
+}
+
+/* .buttonIn {
+ 
+  color: white;
+  width: 150px;
+  height: 50px;
+  margin-top: 6rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-style: none;
+} */
+
+/* halaman menu booking */
+.page2 {
+  height: 170vh;
+  margin-top: 4rem;
+  display: flex;
+
+  /* background-color: white; */
+}
+
+.calendar {
+  /* border-radius: 10px; */
+  /* border: 2px solid black; */
+  margin-top: 10rem;
+  margin-left: 10px;
+  color: rgb(23, 23, 23);
+  height: 40rem;
+  background-color: #fffaf4;
+  padding: 1px;
+
+  /* background-color: rgba(153, 170, 187,0.6); */
+}
+
+.note {
+  margin-right: 3rem;
+}
+/* input data pelanggan */
+.inputuser {
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+.inputuser label {
+  color: #313538;
+}
+
+.calendar h1 {
+  font-size: 31px;
+  margin-top: 8px;
+  margin-left: 1.5rem;
+  color: #4b5b73;
+  justify-items: center;
+}
+.calendar h2 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #cc8c18;
+}
+
+.kamar {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 60rem;
+  margin-bottom: 3rem;
+  transition: 0.5s;
+}
+.kamar:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+.left {
+  width: 20rem;
+  margin-right: 1rem;
+}
+
+.map {
+  border: 2px solid black;
+  margin-top: 2rem;
+  margin-left: 10px;
+  height: 444px;
+  background-color:#fffaf4;
+  border: none;
+}
+.map h3{
+    text-align: center;
+    color: #cc8c18;
+}
+.map p{
+    
+    text-align: center;
+    color: #313538;
+}
+.kamar div {
+  /* border: 2px solid black; */
+  color: #16161a;
+  height: 200px;
+  width: 350px;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 5px 5px 20px grey;
+}
+.kamar img {
+  width: 400px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 3px;
+  box-shadow: 5px 5px 30px grey;
+}
+.kamar button {
+    background-color: #cc8c18;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.deskripsi {
+  height: fit-content;
+  width: 15rem;
+  background-size: cover;
+  border: 2px solid black;
+}
+
+.next {
+  border: none;
+  border-radius: 3pcpx;
+  text-align: center;
+  margin-top: 10rem;
+  height: 70rem;
+  width: 69rem;
+  position: relative;
+  background-color: #fffaf4;
+  margin-left: 2px;
+  /* background-color:rgba(153, 170, 187,0.6);
+     */
+}
+.next h3 {
+  margin-top: 4rem;
+  justify-items: center;
+  color: #cc8c18;
+}
+.lain {
+  font-size: 4rem;
+  color: #4b5b73;
+  position: relative;
+}
+.kamar h1 {
+  color: #cc8c18;
+}
+
+/* header/navbar */
+.header {
+  position: sticky;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #313538;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+  transition: 0.3s;
+}
+
+.header.sticky {
+  z-index: 9999;
+  position: sticky;
+  width: 100%;
+  background: #313538;
+  transition: 0.5s;
+  height: 16vh;
+  transition: 0.5s;
+  top: 0;
+  padding: 30px 0 0 0;
+}
+
+.logo {
+  position: relative;
+  font-size: 2.5rem;
+  color: #cc8c18;
+  font-weight: 600;
+}
+span {
+  color: white;
+}
+
+.navbar {
+  position: sticky;
+}
+
+
+.navbar a {
+  font-size: 1.7rem;
+  color: rgb(19, 19, 19);
+  font-weight: 200;
+  margin-left: 3.5rem;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: white;
+}
+.navbar a.active {
+  color: white;
+}
+.footer {
+    position: relative;
+z-index: 9999;
+    margin-top: 3rem;
+  height: 15rem;
+  width: 100%;
+  color: white;
+  background-color: #313538;
+  bottom: 0px;
+}
+.box {
+    
+    position: absolute;
+    right: 0;
+}
+.lorem{
+    
+    width: 20rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+.lorem h1{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.lorem span{
+    color:#cc8c18;
+}
+
+/* crousel */
+  
+
+.pic-ctn {
+    width: 100vw;
+    height: 200px;
+  }
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  
+  .pic-ctn {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    margin-top: 1rem;
+  }
+  
+  .pic-ctn > img {
+    margin-top: 2rem;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    opacity: 0;
+    animation: display 10s infinite;
+  }
+  
+  img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  img:nth-child(4) {
+    animation-delay: 6s;
+  }
+  img:nth-child(5) {
+    animation-delay: 8s;
+  }
+
